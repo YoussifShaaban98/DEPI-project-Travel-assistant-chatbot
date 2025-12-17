@@ -118,11 +118,17 @@ Retrieved context + user question → LLM
 Model generates a grounded, contextual answer
 
 🗂️ Project Structure
+
 ├── main.py                 # Main Streamlit application
+
 ├── docs.json               # Regulations & fees dataset (JSON array)
+
 ├── .env                    # API keys (not tracked)
+
 ├── chroma_langchain_db/    # Vector database (auto-generated)
+
 ├── requirements.txt        # Python dependencies
+
 └── README.md               # Project documentation
 
 🎯 Use Cases
